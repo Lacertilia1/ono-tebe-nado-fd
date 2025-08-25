@@ -1,0 +1,23 @@
+# ОС
+.DS_Store
+Thumbs.db
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+
+# Сборка/билд
+dist/
+build/
+
+# IDE/редакторы
+.vscode/
+.idea/
+
+# Кэш
+*.log
+.cache/
