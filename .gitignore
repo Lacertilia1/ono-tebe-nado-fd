@@ -1,4 +1,4 @@
-# ОС
+# OS
 .DS_Store
 Thumbs.db
 
@@ -9,15 +9,14 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-
-# Сборка/билд
+# Build
 dist/
 build/
 
-# IDE/редакторы
+# IDE
 .vscode/
 .idea/
 
-# Кэш
+# Cache
 *.log
 .cache/
