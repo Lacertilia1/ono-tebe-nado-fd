@@ -5,6 +5,223 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
-  <body></body>
+
+  <body>
+    <img src="./images/pixel-perfect.png" alt="" class="pixel-perfect-image" />
+    <header class="header">
+      <nav class="nav">
+        <ul class="header__link-list link-list">
+          <li class="header__link-item">
+            <a href="#0">главная</a>
+          </li>
+          <li class="header__link-item">
+            <a href="#0" class="underline">посмотреть лоты</a>
+          </li>
+          <li class="header__link-item">
+            <a href="#0" class="underline">об аукционе</a>
+          </li>
+        </ul>
+      </nav>
+
+      <a href="#0" class="logo__container">
+        <img
+          src="./images/logo-black.svg"
+          alt="логотип компании"
+          class="logo__image"
+        />
+      </a>
+
+      <address class="header__contact contact">
+        <a class="underline" href="tel:+99995555555">+9 999 555 5555</a>
+        <a class="underline" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <span class="contact__address"
+          >наб. Принсенграхт 263-<br />265, Амстердам</span
+        >
+      </address>
+    </header>
+
+    <main>
+      <section class="tile cover dark-theme">
+        <img src="./images/cover.jpg" alt="" class="tile__image" />
+        <div class="overlay"></div>
+        <h1 class="cover__heading heading">
+          <span class="aligned-text">ОНО</span>
+          <span class="aligned-text aligned-text--center">ТЕБЕ</span>
+          <span class="aligned-text aligned-text--right">НАДО</span>
+        </h1>
+        <div class="tile__description">
+          <p class="tile__text cover__text">
+            Аукцион вещей, в которые никто не верил
+          </p>
+          <button class="description__button">Сделать ставку</button>
+        </div>
+      </section>
+
+      <section class="lots">
+        <h2 class="lots__heading heading ml-40">Лоты</h2>
+
+        <ul class="lots-list">
+          <li class="lots-list__item">
+            <a href="#0" class="tile__container">
+              <article class="tile article dark-theme">
+                <img
+                  src="./images/card-lot-01.jpg"
+                  alt="Кадр из фильма «Лакричная пицца»: девушка держит зеркало перед парнем"
+                  class="tile__image"
+                />
+                <div class="overlay"></div>
+                <h3 class="article__heading heading underline">
+                  Фильм режиссёра, который бросил киношколу
+                </h3>
+                <div class="tile__description description">
+                  <p>
+                    Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
+                    ставка, если бы вы не знали, что режиссёр — Пол Томас
+                    Андерсон?
+                  </p>
+                </div>
+              </article>
+            </a>
+          </li>
+
+          <li class="lots-list__item">
+            <a href="#0" class="tile__container">
+              <article class="tile article dark-theme">
+                <img
+                  src="./images/card-lot-02.jpg"
+                  alt="Обложка романа Джеймса Джойса «Улисс», издательство «Иностранка»"
+                  class="tile__image"
+                />
+                <div class="overlay"></div>
+                <h3 class="article__heading heading underline">
+                  Книга, где описан один скучный день из жизни рекламного агента
+                </h3>
+                <div class="tile__description description">
+                  <p>
+                    Объёмом почти в тысячу страниц. Иногда без знаков препинания
+                    и с переходами на древнеанглийский. В ней одновременно
+                    рассказывается о 16 июня 1904 года и об истории литературы,
+                    начиная с античных времён. И это всё накладывается на
+                    эпическую поэму Гомера. Сколько бы вы поставили на «Улисса»
+                    Джеймса Джойса?
+                  </p>
+                </div>
+              </article>
+            </a>
+          </li>
+
+          <li class="lots-list__item">
+            <a href="#0" class="tile__container">
+              <article class="tile article dark-theme">
+                <img
+                  src="./images/card-lot-03.jpg"
+                  alt="Абстрактная картина Василия Кандинского «Черное и фиолетовое» (1923)"
+                  class="tile__image"
+                />
+                <div class="overlay"></div>
+                <h3 class="article__heading heading underline">
+                  Картина, которую повторит даже 5-летний сын маминой подруги
+                </h3>
+                <div class="tile__description description">
+                  <p>
+                    Ну действительно, там линия, тут кружочек, а здесь и вовсе
+                    что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
+                    котиков... Сколько бы вы на такое поставили, если бы не
+                    знали, что это — одна из революционных работ Кандинского?
+                  </p>
+                </div>
+              </article>
+            </a>
+          </li>
+        </ul>
+
+        <a href="#0" class="underline ml-40">посмотреть больше</a>
+      </section>
+
+      <section class="about">
+        <div class="logo-column">
+          <a href="#0" class="about__logo logo__container">
+            <img
+              src="./images/logo-white.svg"
+              alt="логотип компании"
+              class="logo__image"
+            />
+          </a>
+        </div>
+
+        <div class="about-column">
+          <h2 class="about-column__heading heading">Об аукционе</h2>
+          <div class="tile__description description">
+            <p>
+              Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то
+              похожее на инфузорию-туфельку. Никаких полей, лесов, котиков...
+              Сколько бы вы на такое поставили, если бы не знали, что это — одна
+              из революционных работ Кандинского?
+            </p>
+            <p>
+              Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то
+              похожее на инфузорию-туфельку. Никаких полей, лесов, котиков...
+              Сколько бы вы на такое поставили, если бы не знали, что это — одна
+              из революционных работ Кандинского?
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <address class="footer__contact contact">
+        <a class="underline" href="tel:+99995555555">+9 999 555 5555</a>
+        <a class="underline" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <span class="contact__address"
+          >наб. Принсенграхт 263-265,<br />Амстердам</span
+        >
+      </address>
+
+      <nav class="nav">
+        <ul class="footer__link-list link-list">
+          <li><a href="#0">главная</a></li>
+          <li><a href="#0" class="underline">посмотреть лоты</a></li>
+          <li><a href="#0" class="underline">об аукционе</a></li>
+        </ul>
+      </nav>
+
+      <ul class="social-list">
+        <li>
+          <a href="https://www.youtube.com" target="_blank">
+            <img
+              src="./images/yt.svg"
+              height="48"
+              width="48"
+              alt="Youtube-канал компании"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="https://vk.com/" target="_blank">
+            <img
+              src="./images/vk.svg"
+              height="48"
+              width="48"
+              alt="VK-группа компании"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="https://ru.pinterest.com/" target="_blank">
+            <img
+              src="./images/pinterest.svg"
+              height="48"
+              width="48"
+              alt="Pinterest-канал компании"
+            />
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
 </html>
