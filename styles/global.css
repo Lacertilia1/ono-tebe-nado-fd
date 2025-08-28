@@ -54,7 +54,6 @@ ul {
 .heading {
   font-weight: 700;
   text-transform: uppercase;
-  line-height: 1;
 }
 
 .ml-40 {
@@ -65,4 +64,8 @@ ul {
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 4px;
+}
+
+.letter-spacing-0 {
+  letter-spacing: 0;
 }
