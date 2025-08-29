@@ -12,73 +12,69 @@
 
   <body>
     <header class="header">
-      <nav>
-        <ul class="header__link-list link-list">
-          <li class="header__link-item">
-            <a href="#0">главная</a>
+      <nav class="header__menu">
+        <ul class="header__links-list">
+          <li class="header__links-list-item header__links-list-item_no-bullit">
+            <a class="header__link header__link_active" href="#0">главная</a>
           </li>
-          <li class="header__link-item">
-            <a href="#0" class="underline">посмотреть лоты</a>
+          <li class="header__links-list-item">
+            <a class="header__link" href="#0">посмотреть лоты</a>
           </li>
-          <li class="header__link-item">
-            <a href="#0" class="underline">об аукционе</a>
+          <li class="header__links-list-item">
+            <a class="header__link" href="#0">об аукционе</a>
           </li>
         </ul>
       </nav>
 
-      <a href="#0" class="logo__container">
+      <a href="#0" class="header__logo">
         <img
           src="./images/logo-black.svg"
           alt="логотип компании"
-          class="logo__image"
+          class="header__logo-image logo__image"
         />
       </a>
 
-      <address class="header__contact contact">
-        <a class="underline" href="tel:+99995555555">+9 999 555 5555</a>
-        <a class="underline" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+      <address class="address header__address">
+        <a href="tel:+99995555555">+9 999 555 5555</a>
+        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <span>наб. Принсенграхт 263- 265, Амстердам</span>
       </address>
     </header>
 
     <main>
-      <section class="tile cover dark-theme">
-        <img src="./images/cover.jpg" alt="" class="tile__image" />
+      <section class="cover cover_type_picture dark-theme">
         <div class="overlay"></div>
-        <h1 class="cover__heading heading">
-          <span class="aligned-text"
-            >ОН<span class="letter-spacing-0">О</span></span
+        <h1 class="cover__title heading letter-spacing-extended">
+          <span class="aligned-text aligned-text_left"
+            >ОН<span class="no-letter-spacing">О</span></span
           >
-          <span class="aligned-text aligned-text--center"
-            >ТЕБ<span class="letter-spacing-0">Е</span></span
+          <span class="aligned-text aligned-text_center"
+            >ТЕБ<span class="no-letter-spacing">Е</span></span
           >
-          <span class="aligned-text aligned-text--right"
-            >НАД<span class="letter-spacing-0">О</span></span
+          <span class="aligned-text aligned-text_right"
+            >НАД<span class="no-letter-spacing">О</span></span
           >
         </h1>
-        <div class="tile__description cover__description">
-          <p class="cover__text">Аукцион вещей, в которые никто не верил</p>
-          <button class="description__button">Сделать ставку</button>
+        <div class="cover__description">
+          <p class="cover__description-text">
+            Аукцион вещей, в которые никто не верил
+          </p>
+          <button class="bet-button">Сделать ставку</button>
         </div>
       </section>
 
       <section class="lots">
         <h2 class="lots__heading section__heading heading ml-40">Лоты</h2>
 
-        <ul class="lots-list">
-          <li class="lots-list__item">
-            <a href="#0" class="tile__container">
-              <article class="tile article dark-theme">
-                <img
-                  src="./images/card-lot-01.jpg"
-                  alt="Кадр из фильма «Лакричная пицца»: девушка держит зеркало перед парнем"
-                  class="tile__image"
-                />
+        <ul class="lots__card-list">
+          <li class="lots__card-list-item">
+            <a href="#0" class="card-link">
+              <article class="card card_type_film dark-theme">
                 <div class="overlay"></div>
-                <h3 class="article__heading heading underline">
+                <h3 class="card__title heading">
                   Фильм режиссёра, который бросил киношколу
                 </h3>
-                <div class="tile__description description">
+                <div class="card__text">
                   <p>
                     Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
                     ставка, если бы вы не знали, что режиссёр — Пол Томас
@@ -89,19 +85,14 @@
             </a>
           </li>
 
-          <li class="lots-list__item">
-            <a href="#0" class="tile__container">
-              <article class="tile article dark-theme">
-                <img
-                  src="./images/card-lot-02.jpg"
-                  alt="Обложка романа Джеймса Джойса «Улисс», издательство «Иностранка»"
-                  class="tile__image"
-                />
+          <li class="lots__card-list-item">
+            <a href="#0" class="card-link">
+              <article class="card card_type_book dark-theme">
                 <div class="overlay"></div>
-                <h3 class="article__heading heading underline">
+                <h3 class="card__title heading">
                   Книга, где описан один скучный день из жизни рекламного агента
                 </h3>
-                <div class="tile__description description">
+                <div class="card__text">
                   <p>
                     Объёмом почти в тысячу страниц. Иногда без знаков препинания
                     и с переходами на древнеанглийский. В ней одновременно
@@ -115,19 +106,14 @@
             </a>
           </li>
 
-          <li class="lots-list__item">
-            <a href="#0" class="tile__container">
-              <article class="tile article dark-theme">
-                <img
-                  src="./images/card-lot-03.jpg"
-                  alt="Абстрактная картина Василия Кандинского «Черное и фиолетовое» (1923)"
-                  class="tile__image"
-                />
+          <li class="lots__card-list-item">
+            <a href="#0" class="card-link">
+              <article class="card card_type_picture dark-theme">
                 <div class="overlay"></div>
-                <h3 class="article__heading heading underline">
+                <h3 class="card__title heading">
                   Картина, которую повторит даже 5-летний сын маминой подруги
                 </h3>
-                <div class="tile__description description">
+                <div class="card__text">
                   <p>
                     Ну действительно, там линия, тут кружочек, а здесь и вовсе
                     что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
@@ -140,12 +126,13 @@
           </li>
         </ul>
 
-        <a href="#0" class="underline ml-40">посмотреть больше</a>
+        <a href="#0" class="lots__look-more-link ml-40">посмотреть больше</a>
       </section>
 
+      <!-- Продолжить приводить в порядок стили секции about -->
       <section class="about">
-        <div>
-          <a href="#0" class="about__logo logo__container">
+        <div class="about__column">
+          <a href="#0" class="about__logo logo">
             <img
               src="./images/logo-white.svg"
               alt="логотип компании"
@@ -154,11 +141,11 @@
           </a>
         </div>
 
-        <div class="about-column">
+        <div class="about__column about-column">
           <h2 class="section__heading about-column__heading heading">
             Об аукционе
           </h2>
-          <div class="tile__description description">
+          <div class="description">
             <p>
               Здесь вы&nbsp;не&nbsp;встретите очередное пафосное собрание
               невероятно дорогого антиквариата. Наши лоты вообще не&nbsp;должны
@@ -182,7 +169,7 @@
     </main>
 
     <footer class="footer">
-      <address class="contact">
+      <address class="address">
         <a class="underline" href="tel:+99995555555">+9 999 555 5555</a>
         <a class="underline" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <span>наб. Принсенграхт 263-265,<br />Амстердам</span>
