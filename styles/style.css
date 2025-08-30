@@ -274,16 +274,28 @@
   line-height: 1;
 }
 
-.footer__link-list {
+.footer__address {
+  max-width: 265px;
+}
+
+.footer__links-list {
+  display: flex;
   flex-direction: column;
   align-items: center;
   gap: 5px;
 }
 
-/* Social-list */
-.social-list {
+.footer__link_active {
+  text-decoration: none;
+}
+
+.footer__social-list {
   display: flex;
   justify-self: end;
   align-items: center;
   gap: 48px;
+}
+
+.footer__social-link {
+  display: block;
 }
