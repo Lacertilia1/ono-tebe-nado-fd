@@ -131,11 +131,6 @@
   text-align: right;
 }
 
-/* Description */
-.description {
-  flex-direction: column;
-}
-
 /* Bet-button */
 .bet-button {
   border: 1px solid currentColor;
