@@ -26,7 +26,7 @@
   z-index: -1;
   width: 100%;
   height: 100%;
-  background: rgba(0,0,0,0.6);
+  background: rgba(0,0,0,.6);
 }
 
 /* Header */
@@ -111,7 +111,7 @@
 }
 
 .cover__description-text {
-  word-spacing: 0.85em;
+  word-spacing: .85em;
 }
 
 /* Aligned-text */
