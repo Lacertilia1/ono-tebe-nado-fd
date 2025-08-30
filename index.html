@@ -166,24 +166,35 @@
     </main>
 
     <footer class="footer">
-      <address class="address">
-        <a class="underline" href="tel:+99995555555">+9 999 555 5555</a>
-        <a class="underline" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        <span>наб. Принсенграхт 263-265,<br />Амстердам</span>
+      <address class="address footer__address">
+        <a href="tel:+99995555555">+9 999 555 5555</a>
+        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <span>наб. Принсенграхт 263- 265, Амстердам</span>
       </address>
 
-      <nav>
-        <ul class="footer__link-list link-list">
-          <li><a href="#0">главная</a></li>
-          <li><a href="#0" class="underline">посмотреть лоты</a></li>
-          <li><a href="#0" class="underline">об аукционе</a></li>
+      <nav class="footer__menu">
+        <ul class="footer__links-list">
+          <li class="footer__links-list-item footer__links-list-item_no-bullit">
+            <a class="footer__link footer__link_active" href="#0">главная</a>
+          </li>
+          <li class="footer__links-list-item">
+            <a class="footer__link" href="#0">посмотреть лоты</a>
+          </li>
+          <li class="footer__links-list-item">
+            <a class="footer__link" href="#0">об аукционе</a>
+          </li>
         </ul>
       </nav>
 
-      <ul class="social-list">
-        <li>
-          <a href="https://www.youtube.com" target="_blank">
+      <ul class="footer__social-list">
+        <li class="footer__social-list-item">
+          <a
+            href="https://www.youtube.com"
+            class="footer__social-link"
+            target="_blank"
+          >
             <img
+              class="footer__social-icon"
               src="./images/yt.svg"
               height="48"
               width="48"
@@ -191,9 +202,10 @@
             />
           </a>
         </li>
-        <li>
-          <a href="https://vk.com/" target="_blank">
+        <li class="footer__social-list-item">
+          <a href="https://vk.com/" class="footer__social-link" target="_blank">
             <img
+              class="footer__social-icon"
               src="./images/vk.svg"
               height="48"
               width="48"
@@ -201,9 +213,14 @@
             />
           </a>
         </li>
-        <li>
-          <a href="https://ru.pinterest.com/" target="_blank">
+        <li class="footer__social-list-item">
+          <a
+            href="https://ru.pinterest.com/"
+            class="footer__social-link"
+            target="_blank"
+          >
             <img
+              class="footer__social-icon"
               src="./images/pinterest.svg"
               height="48"
               width="48"
