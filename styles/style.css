@@ -248,12 +248,18 @@
   padding-top: 104px;
 }
 
-.about-column__heading {
+.about__title {
   margin-bottom: 103px;
 }
 
-.about__image {
+.about__logo-image {
   width: 148px;
+}
+
+.about__text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 /* Text */
