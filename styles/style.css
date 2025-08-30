@@ -1,10 +1,12 @@
 /* Theme */
+
 .dark-theme {
   color: #fff;
   background-color: #000;
 }
 
 /* Address */
+
 .address {
   display: flex;
   flex-direction: column;
@@ -14,12 +16,14 @@
 }
 
 /* Heading */
+
 .heading {
   font-weight: 700;
   text-transform: uppercase;
 }
 
 /* Overlay */
+
 .overlay {
   position: absolute;
   inset: 0;
@@ -30,6 +34,7 @@
 }
 
 /* Header */
+
 .header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
@@ -72,6 +77,7 @@
 }
 
 /* Cover */
+
 .cover {
   position: relative;
   z-index: -2;
@@ -115,6 +121,7 @@
 }
 
 /* Aligned-text */
+
 .aligned-text {
   display: block;
 }
@@ -132,6 +139,7 @@
 }
 
 /* Bet-button */
+
 .bet-button {
   border: 1px solid currentColor;
   padding: 11px 31px;
@@ -141,6 +149,7 @@
 }
 
 /* Lots */
+
 .lots {
   margin: 0 24px 120px;
 }
@@ -167,12 +176,14 @@
 }
 
 /* Section */
+
 .section__heading {
   font-size: 40px;
   line-height: 1;
 }
 
 /* Card */
+
 .card-link {
   display: block;
   height: 100%;
@@ -222,6 +233,7 @@
 }
 
 /* About */
+
 .about {
   display: grid;
   grid-template-columns: 240px auto;
@@ -257,14 +269,8 @@
   gap: 24px;
 }
 
-/* Text */
-.text {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
-
 /* Footer */
+
 .footer {
   display: grid;
   grid-template-columns: 1fr max-content 1fr;
