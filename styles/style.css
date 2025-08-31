@@ -74,13 +74,7 @@
   margin-bottom: 183px;
   padding: 165px 50px 50px;
   color: #fff;
-}
-
-.cover_type_picture {
-  background-image: url(../images/cover.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background: url(../images/cover.jpg) no-repeat center / cover;
 }
 
 .cover__title {
@@ -213,9 +207,7 @@
   height: 100%;
   padding: 48px 40px;
   color: #fff;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background: no-repeat center / cover;
 }
 
 .card_type_film {
