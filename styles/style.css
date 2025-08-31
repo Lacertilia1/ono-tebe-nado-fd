@@ -174,7 +174,6 @@
 
 .lots__card-list-item {
   flex: 1 1 334px;
-  min-height: 596px;
 }
 
 .lots__look-more-link {
@@ -204,6 +203,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 34px;
   height: 100%;
   padding: 48px 40px;
   color: #fff;
