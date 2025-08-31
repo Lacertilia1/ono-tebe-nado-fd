@@ -214,27 +214,21 @@
   height: 100%;
   padding: 48px 40px;
   color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .card__title {
