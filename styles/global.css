@@ -43,11 +43,3 @@ button {
 ul {
   list-style: none;
 }
-
-.letter-spacing-extended {
-  letter-spacing: 30px;
-}
-
-.no-letter-spacing {
-  letter-spacing: 0;
-}
