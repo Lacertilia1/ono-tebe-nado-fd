@@ -22,6 +22,14 @@
   text-transform: uppercase;
 }
 
+.letter-spacing-extended {
+  letter-spacing: 30px;
+}
+
+.no-letter-spacing {
+  letter-spacing: 0;
+}
+
 /* Overlay */
 
 .overlay {
