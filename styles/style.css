@@ -8,6 +8,11 @@
   line-height: 1.35;
 }
 
+.address__link {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+
 /* Heading */
 
 .heading {
@@ -57,6 +62,11 @@
 
 .header__links-list-item_no-bullit {
   list-style-type: none;
+}
+
+.header__link {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
 }
 
 .header__link_active {
@@ -175,6 +185,8 @@
 
 .lots__look-more-link {
   margin-left: 40px;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 5px;
 }
 
 /* Section */
@@ -226,6 +238,9 @@
 
 .card__title {
   font-size: 22px;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
 }
 
 .card__text {
@@ -292,6 +307,11 @@
   flex-direction: column;
   align-items: center;
   gap: 5px;
+}
+
+.footer__link {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
 }
 
 .footer__link_active {
