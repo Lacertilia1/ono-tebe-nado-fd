@@ -1,10 +1,3 @@
-/* Theme */
-
-.dark-theme {
-  color: #fff;
-  background-color: #000;
-}
-
 /* Address */
 
 .address {
@@ -96,6 +89,7 @@
   min-height: 757px;
   margin-bottom: 183px;
   padding: 165px 50px 50px;
+  color: #fff;
 }
 
 .cover_type_picture {
@@ -206,6 +200,7 @@
   justify-content: space-between;
   height: 100%;
   padding: 48px 40px;
+  color: #fff;
 }
 
 .card_type_film {
