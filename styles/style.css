@@ -34,11 +34,13 @@
 
 .header__logo {
   display: block;
-  width: 136px;
+  width: 148px;
+  height: 105px;
 }
 
 .header__logo-image {
   display: block;
+  object-fit: contain;
 }
 
 .header__address {
@@ -97,7 +99,7 @@
 }
 
 .cover__description-text {
-  word-spacing: .85em;
+  word-spacing: 0.85em;
 }
 
 /* Overlay */
@@ -108,7 +110,7 @@
   z-index: -1;
   width: 100%;
   height: 100%;
-  background: rgba(0,0,0,.6);
+  background: rgb(0 0 0 / 0.6);
 }
 
 /* Heading */
@@ -246,21 +248,23 @@
   padding: 35px 24px 0 71px;
 }
 
-.about__logo {
+.about__logo-column {
+  width: 240px;
+  height: 240px;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 240px;
-  border-radius: 50%;
   background-color: #000;
+  border-radius: 50%;
 }
 
-.about__logo-image {
+.about__logo {
   width: 148px;
+  height: 114px;
 }
 
-.about-column {
-  padding-top: 104px;
+.about__about-column {
+  padding-top: 100px;
 }
 
 .about__title {
@@ -313,4 +317,6 @@
 
 .footer__social-link {
   display: block;
+  width: 48px;
+  height: 48px;
 }
