@@ -2,9 +2,9 @@
 
 .header {
   display: grid;
-  grid-template-columns: 1fr min-content 1fr;
+  grid-template-columns: 1fr max-content 1fr;
   align-items: center;
-  padding: 92px 50px 96px;
+  padding: 115px 50px 96px;
   font-size: 18px;
   line-height: 1;
 }
@@ -124,10 +124,6 @@
   letter-spacing: 30px;
 }
 
-.no-letter-spacing {
-  letter-spacing: 0;
-}
-
 /* Aligned-text */
 
 .aligned-text {
@@ -140,10 +136,12 @@
 
 .aligned-text_center {
   text-align: center;
+  translate: 15px;
 }
 
 .aligned-text_right {
   text-align: right;
+  translate: 30px;
 }
 
 /* Bet-button */
@@ -264,7 +262,7 @@
 }
 
 .about__about-column {
-  padding-top: 100px;
+  padding-top: 104px;
 }
 
 .about__title {
