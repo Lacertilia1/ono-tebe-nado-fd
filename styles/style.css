@@ -249,13 +249,13 @@
 }
 
 .about__logo-column {
-  width: 240px;
-  height: 240px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #000;
+  width: 240px;
+  height: 240px;
   border-radius: 50%;
+  background-color: #000;
 }
 
 .about__logo {
@@ -310,7 +310,8 @@
 
 .footer__social-list {
   display: flex;
-  justify-self: end;
+  flex-wrap: wrap;
+  justify-content: end;
   align-items: center;
   gap: 48px;
 }
