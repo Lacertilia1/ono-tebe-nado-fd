@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
 
-  <body>
+  <body class="page">
     <header class="header">
       <nav>
-        <ul class="header__links-list">
+        <ul class="header__links-list links-list">
           <li class="header__links-list-item header__links-list-item_no-bullit">
             <a class="header__link header__link_active" href="#0">главная</a>
           </li>
@@ -26,11 +26,11 @@
         </ul>
       </nav>
 
-      <a href="#0" class="header__logo">
+      <a href="#0" class="header__logo logo">
         <img
+          class="logo-image"
           src="./images/logo-black.svg"
           alt="логотип компании"
-          class="header__logo-image"
         />
       </a>
 
@@ -41,13 +41,13 @@
       </address>
     </header>
 
-    <main>
+    <main class="main">
       <section class="cover">
         <div class="overlay"></div>
-        <h1 class="cover__title heading letter-spacing-extended">
-          <span class="aligned-text aligned-text_left">оНО</span>
-          <span class="aligned-text aligned-text_center">ТЕБЕ</span>
-          <span class="aligned-text aligned-text_right">НАДО</span>
+        <h1 class="cover__title title letter-spacing-extended">
+          <span class="aligned-text aligned-text--left">оНО</span>
+          <span class="aligned-text aligned-text--center">ТЕБЕ</span>
+          <span class="aligned-text aligned-text--right">НАДО</span>
         </h1>
         <div class="cover__description">
           <p class="cover__description-text">
@@ -57,15 +57,15 @@
         </div>
       </section>
 
-      <section class="lots">
-        <h2 class="lots__heading section__heading heading">Лоты</h2>
+      <section class="section lots">
+        <h2 class="section__title lots__title title">Лоты</h2>
 
         <ul class="lots__card-list">
-          <li class="lots__card-list-item">
+          <li>
             <a href="#0" class="card-link">
               <article class="card card_type_film">
                 <div class="overlay"></div>
-                <h3 class="card__title heading">
+                <h3 class="card__title title">
                   Фильм режиссёра, который бросил киношколу
                 </h3>
                 <p>
@@ -77,11 +77,11 @@
             </a>
           </li>
 
-          <li class="lots__card-list-item">
+          <li>
             <a href="#0" class="card-link">
               <article class="card card_type_book">
                 <div class="overlay"></div>
-                <h3 class="card__title heading">
+                <h3 class="card__title title">
                   Книга, где описан один скучный день из жизни рекламного агента
                 </h3>
                 <p>
@@ -96,11 +96,11 @@
             </a>
           </li>
 
-          <li class="lots__card-list-item">
+          <li>
             <a href="#0" class="card-link">
               <article class="card card_type_picture">
                 <div class="overlay"></div>
-                <h3 class="card__title heading">
+                <h3 class="card__title title">
                   Картина, которую повторит даже 5-летний сын маминой подруги
                 </h3>
                 <p>
@@ -117,20 +117,18 @@
         <a href="#0" class="lots__look-more-link">посмотреть больше</a>
       </section>
 
-      <section class="about">
-        <div class="about__column about__logo-column">
-          <div class="about__logo">
-            <img
-              src="./images/logo-white.svg"
-              alt="логотип компании"
-              class="about__logo-image"
-            />
-          </div>
+      <section class="section about">
+        <div class="about__logo">
+          <img
+            src="./images/logo-white.svg"
+            alt="логотип компании"
+            class="logo-image"
+          />
         </div>
 
-        <div class="about__column about__about-column">
-          <h2 class="section__heading about__title heading">Об аукционе</h2>
-          <div class="about__text">
+        <div class="about__content">
+          <h2 class="section__title title">Об аукционе</h2>
+          <div class="about__description">
             <p>
               Здесь вы&nbsp;не&nbsp;встретите очередное пафосное собрание
               невероятно дорогого антиквариата. Наши лоты вообще не&nbsp;должны
@@ -160,9 +158,9 @@
         <span>наб. Принсенграхт 263- 265, Амстердам</span>
       </address>
 
-      <ul class="footer__links-list">
+      <ul class="footer__links-list links-list">
         <li>
-          <a class="footer__link footer__link_active" href="#0">главная</a>
+          <a class="footer__link footer__link--active" href="#0">главная</a>
         </li>
         <li>
           <a class="footer__link" href="#0">посмотреть лоты</a>
