@@ -100,13 +100,13 @@
 
 .cover {
   position: relative;
-  z-index: 1;
+  z-index: -2;
   display: grid;
   gap: 106px;
   margin-bottom: 60px;
   padding: 165px 50px 50px;
   color: #fff;
-  background: url(../images/cover.jpg) no-repeat center / cover;
+  background: url(../images/cover@x1.jpg) no-repeat center / cover;
 }
 
 .cover__title {
@@ -133,7 +133,9 @@
 
 /* Overlay */
 
-.overlay {
+.card::before,
+.cover::before {
+  content: '';
   position: absolute;
   inset: 0;
   z-index: -1;
@@ -223,18 +225,24 @@
   padding: 48px 40px;
   color: #fff;
   background: no-repeat center / cover;
+  transition: transform 0.5s, box-shadow 0.5s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 10px 5px gray;
 }
 
 .card_type_film {
-  background-image: url(../images/card-lot-01.jpg);
+  background-image: url(../images/card-lot-01@x1.jpg);
 }
 
 .card_type_book {
-  background-image: url(../images/card-lot-02.jpg);
+  background-image: url(../images/card-lot-02@x1.jpg);
 }
 
 .card_type_picture {
-  background-image: url(../images/card-lot-03.jpg);
+  background-image: url(../images/card-lot-03@x1.jpg);
 }
 
 .card__title {
